@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+configservice:
+  value1: i am zzl
