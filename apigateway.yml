@@ -41,9 +41,3 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
-# register
-eureka:
-  client:
-    service-url:
-      # register two centers
-      defaultZone: http://eureka-server01:2581/eureka, http://eureka-server02:2582/eureka
