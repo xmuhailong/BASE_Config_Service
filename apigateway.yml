@@ -1,5 +1,5 @@
 
-sping:
+spring:
   datasource:
       name: mysql_test
       type: com.alibaba.druid.pool.DruidDataSource
