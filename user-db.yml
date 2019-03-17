@@ -7,7 +7,7 @@ spring:
         master:
           url: jdbc:mysql://127.0.0.1:3306/zzl_cfg?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
           username: root
-          password: hailong1
+          password: '{cipher}ba55b8e62a748e659540b33a18ed9eef881144f24592b1df32d2f52555de9906'
           #监控统计拦截的filters
           filters: stat
           #配置初始化大小/最小/最大
@@ -30,7 +30,7 @@ spring:
         slave:
           url: jdbc:mysql://127.0.0.1:3306/zzl_user?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
           username: root
-          password: hailong1
+          password: '{cipher}ba55b8e62a748e659540b33a18ed9eef881144f24592b1df32d2f52555de9906'
           #监控统计拦截的filters
           filters: stat
           #配置初始化大小/最小/最大
