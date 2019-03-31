@@ -1,5 +1,5 @@
 
-#  开启所有暴露端点
+#  开启所有暴露端点: /routes端点 和 /bus-refresh
 management:
   endpoints:
     web:
