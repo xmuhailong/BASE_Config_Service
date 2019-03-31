@@ -13,9 +13,8 @@ management:
 zuul:
   # 关闭服务自动创建路由规则，必须要如下配置才可以
   ignored-services: '*'
-  
+  prefix: /api
   routes:
-    
     # user
     user:
       path: /user/**
