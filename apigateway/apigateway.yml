@@ -18,5 +18,7 @@ zuul:
     # authentication-service
     authentication-service:
       path: /authentication-service/**
+      #敏感头信息
+      sensitiveHeaders:
       # 使用service-id代替url
       service-id: authentication-service
