@@ -15,12 +15,6 @@ zuul:
   ignored-services: '*'
   prefix: /api
   routes:
-    # user
-    user:
-      path: /user/**
-      # 使用service-id代替url
-      service-id: user
-      
     # authentication-service
     authentication-service:
       path: /authentication-service/**
