@@ -4,7 +4,8 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       #druid相关配置
       druid:
-        url: jdbc:mysql://127.0.0.1:3306/zzl_user?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+        #url: jdbc:mysql://127.0.0.1:3306/zzl_user?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+        url: jdbc:mysql://host.docker.internal:3306/zzl_user?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
         username: root
         password: '{cipher}8fccd2e96eabda78a469b8ded3157c4b66488c14d5ff8a1c0bb06d28561af470'
         #监控统计拦截的filters
