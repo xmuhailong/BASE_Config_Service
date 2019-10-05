@@ -1,7 +1,0 @@
-spring: 
-  zipkin:
-    base-url: http://host.docker.internal:9411
-  sleuth:
-    sampler:
-      # zipkin采集率  0.1表示 10%采集率
-      probability: 1.0
