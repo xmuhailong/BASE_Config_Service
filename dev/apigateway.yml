@@ -22,3 +22,11 @@ zuul:
       sensitiveHeaders:
       # 使用service-id代替url
       service-id: authentication-service
+      
+    # meetingroom
+    authentication-service:
+      path: /meetingroom/**
+      #敏感头信息
+      sensitiveHeaders:
+      # 使用service-id代替url
+      service-id: meetingroom
