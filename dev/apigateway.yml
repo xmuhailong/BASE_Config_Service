@@ -24,7 +24,7 @@ zuul:
       service-id: authentication-service
       
     # meetingroom
-    authentication-service:
+    meetingroom:
       path: /meetingroom/**
       #敏感头信息
       sensitiveHeaders:
