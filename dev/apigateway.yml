@@ -5,7 +5,17 @@ management:
     web:
       exposure:
         include: "*"
-        
+ribbon:
+  ConnectTimeout: 10000 # 连接超时时间(ms)
+  ReadTimeout: 10000 # 通信超时时间(ms)
+hystrix:
+  command:
+    default:
+    execution:
+    isolation:
+    thread:
+    timeoutInMilliseconds: 60000 # 设置hystrix的超时时间为6000ms
+    
 # 增加路由规则的配置
 # 通过zuul.routes.<route>.path和zuul.routes.<route>.url进行配置，<route>为路由的名字，可以任意指定，但是一组path和url的路由名要相同
 #如下面的例子：所有满足/api-a/** 规则的访问都会被路由转发到//localhost:9001的地址
