@@ -23,7 +23,7 @@ zuul:
   routes:
     # authentication-service
     authentication-service:
-      path: /authentication-service/**
+      path: /auth/**
       #敏感头信息
       sensitiveHeaders:
       # 使用service-id代替url
