@@ -19,7 +19,7 @@ hystrix:
 zuul:
   # 关闭服务自动创建路由规则，必须要如下配置才可以
   ignored-services: '*'
-  prefix: /api
+  # prefix: /api
   routes:
     # authentication-service
     authentication-service:
