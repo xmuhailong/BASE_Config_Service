@@ -22,7 +22,7 @@ zuul:
   # prefix: /api
   routes:
     # authentication-service
-    authentication-service:
+    auth:
       path: /auth/**
       #敏感头信息
       sensitiveHeaders:
